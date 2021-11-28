@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iniciotiem"
+        android:title="@string/inicio"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/socialesitem"
+        android:title="@string/sociales"
+        android:icon="@drawable/ic_sociales"/>
+    <item
+        android:id="@+id/publicositem"
+        android:title="@string/publicos"
+        android:icon="@drawable/ic_publicos"/>
+    <item
+        android:id="@+id/perfilitem"
+        android:title="@string/perfil"
+        android:icon="@drawable/ic_perfil"/>
+
+</menu>
