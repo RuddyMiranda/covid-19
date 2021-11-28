@@ -2,6 +2,8 @@ package com.icm.covid_19;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +17,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class menuActivity extends AppCompatActivity {
     private TextView infoTextView;
     private BottomNavigationView bottomNavigationView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,12 +46,12 @@ public class menuActivity extends AppCompatActivity {
 
                 }else if (item.getItemId()==R.id.perfilitem){
                     infoTextView.setText(R.string.perfil);
+
                     return true;
                 }
                 return false;
             }
         });
-
-
     }
+
 }

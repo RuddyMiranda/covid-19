@@ -135,11 +135,9 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     }
 
     private void goMainScreen() {
-        Intent intent = new Intent(this, menuActivity.class);
+        Intent intent = new Intent(this, LobyActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-
         startActivity(intent);
-
     }
 
     @Override
